@@ -1,13 +1,6 @@
-2019/04/03-21:26:08.194 b8c Reusing MANIFEST /home/anshika/.config/google-chrome/Default/Session Storage/MANIFEST-000001
-2019/04/03-22:34:40.932 1536 Level-0 table #5: started
-2019/04/03-22:34:40.980 1536 Level-0 table #5: 18404 bytes OK
-2019/04/03-22:34:40.996 1536 Delete type=0 #3
-2019/04/03-22:41:26.795 1536 Level-0 table #7: started
-2019/04/03-22:41:26.806 1536 Level-0 table #7: 13992 bytes OK
-2019/04/03-22:41:26.813 1536 Delete type=0 #4
-2019/04/03-23:25:09.211 1536 Level-0 table #9: started
-2019/04/03-23:25:09.228 1536 Level-0 table #9: 24941 bytes OK
-2019/04/03-23:25:09.235 1536 Delete type=0 #6
-2019/04/03-23:58:34.019 1536 Level-0 table #11: started
-2019/04/03-23:58:34.120 1536 Level-0 table #11: 15089 bytes OK
-2019/04/03-23:58:34.167 1536 Delete type=0 #8
+2019/04/04-14:26:08.486 585 Reusing MANIFEST /home/anshika/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2019/04/04-14:26:08.487 585 Recovering log #10
+2019/04/04-14:26:08.517 585 Reusing old log /home/anshika/.config/google-chrome/Default/Session Storage/000010.log 
+2019/04/04-14:27:53.635 65c Level-0 table #14: started
+2019/04/04-14:27:53.638 65c Level-0 table #14: 16538 bytes OK
+2019/04/04-14:27:53.640 65c Delete type=0 #10

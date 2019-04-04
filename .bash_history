@@ -96,3 +96,21 @@ git add .
 git add
 git add .
 git commit -m "initial commit"
+curl https://cli-assets.heroku.com/install.sh | sh
+heroku version
+heroku keys:add
+heroku create
+git remote show
+ls
+1s
+ls
+cd /home/anshika/test/
+code .
+pwd /home/anshika/my_first_rails_app/
+git init
+git add .
+git commit -m "initial commit"
+git remote add origin git@github.com:MadelineEd/my_first_rails_app.git
+git push -u origin master
+dir
+chrome

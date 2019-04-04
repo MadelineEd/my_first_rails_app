@@ -1,0 +1,13 @@
+2019/04/03-21:25:04.629 b95 Reusing MANIFEST leveldb/MANIFEST-000001
+2019/04/03-23:17:42.801 6109 Level-0 table #5: started
+2019/04/03-23:17:42.827 6109 Level-0 table #5: 16138 bytes OK
+2019/04/03-23:17:42.847 6109 Delete type=0 #3
+2019/04/03-23:34:16.692 6364 Level-0 table #7: started
+2019/04/03-23:34:16.722 6364 Level-0 table #7: 59976 bytes OK
+2019/04/03-23:34:16.724 6364 Delete type=0 #4
+2019/04/04-10:48:53.210 3f07 Level-0 table #9: started
+2019/04/04-10:48:53.257 3f07 Level-0 table #9: 319962 bytes OK
+2019/04/04-10:48:53.278 3f07 Delete type=0 #6
+2019/04/04-10:55:33.360 3f19 Level-0 table #11: started
+2019/04/04-10:55:33.454 3f19 Level-0 table #11: 316901 bytes OK
+2019/04/04-10:55:33.461 3f19 Delete type=0 #8

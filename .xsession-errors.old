@@ -33,55 +33,222 @@ dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu
 dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
 
-(xfce4-session:896): xfce4-session-WARNING **: 19:50:31.359: xfsm_manager_load_session: Something wrong with /home/anshika/.cache/sessions/xfce4-session-anshika-VirtualBox:0, Does it exist? Permissions issue?
+(xfce4-session:1034): xfce4-session-WARNING **: 20:53:24.339: xfsm_manager_load_session: Something wrong with /home/anshika/.cache/sessions/xfce4-session-anshika-VirtualBox:0, Does it exist? Permissions issue?
 
-(xfwm4:907): GLib-CRITICAL **: 19:50:33.775: g_str_has_prefix: assertion 'prefix != NULL' failed
+(polkit-gnome-authentication-agent-1:1148): GLib-CRITICAL **: 20:53:27.182: g_variant_new_string: assertion 'string != NULL' failed
 
-(xfsettingsd:917): GLib-CRITICAL **: 19:50:38.017: g_str_has_prefix: assertion 'prefix != NULL' failed
+(polkit-gnome-authentication-agent-1:1148): polkit-gnome-1-WARNING **: 20:53:27.187: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
 
-(xfsettingsd:917): GLib-GObject-CRITICAL **: 19:50:38.029: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+(wrapper-2.0:1188): GLib-GIO-CRITICAL **: 20:53:30.226: g_file_new_for_path: assertion 'path != NULL' failed
 
-(xfsettingsd:917): GLib-GObject-CRITICAL **: 19:50:38.033: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+(wrapper-2.0:1188): GLib-GIO-CRITICAL **: 20:53:30.237: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
 
-(polkit-gnome-authentication-agent-1:991): GLib-CRITICAL **: 19:50:38.145: g_variant_new_string: assertion 'string != NULL' failed
+(wrapper-2.0:1188): GLib-GObject-WARNING **: 20:53:30.237: invalid (NULL) pointer instance
 
-(polkit-gnome-authentication-agent-1:991): polkit-gnome-1-WARNING **: 19:50:38.149: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+(wrapper-2.0:1188): GLib-GObject-CRITICAL **: 20:53:30.237: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
 
-(nm-applet:947): Gtk-WARNING **: 19:50:38.228: Can't set a parent on widget which has a parent
+(wrapper-2.0:1188): Gtk-WARNING **: 20:53:30.237: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
 
-(nm-applet:947): Gdk-CRITICAL **: 19:50:40.983: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+** (wrapper-2.0:1191): WARNING **: 20:53:30.279: No outputs have backlight property
 
-(wrapper-2.0:1028): GLib-GIO-CRITICAL **: 19:50:41.628: g_file_new_for_path: assertion 'path != NULL' failed
+(wrapper-2.0:1188): Gtk-WARNING **: 20:53:30.553: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
 
-(wrapper-2.0:1028): GLib-GIO-CRITICAL **: 19:50:41.636: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+(wrapper-2.0:1192): Gtk-WARNING **: 20:53:30.749: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
 
-(wrapper-2.0:1028): GLib-GObject-WARNING **: 19:50:41.638: invalid (NULL) pointer instance
+(wrapper-2.0:1191): Gtk-WARNING **: 20:53:31.136: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
 
-(wrapper-2.0:1028): GLib-GObject-CRITICAL **: 19:50:41.638: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+(nm-applet:1127): Gtk-WARNING **: 20:53:31.151: Can't set a parent on widget which has a parent
 
-(wrapper-2.0:1028): Gtk-WARNING **: 19:50:41.638: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
-
-** (wrapper-2.0:1031): WARNING **: 19:50:41.722: No outputs have backlight property
-
-(wrapper-2.0:1028): Gtk-WARNING **: 19:50:41.874: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
-
-(wrapper-2.0:1033): Gtk-WARNING **: 19:50:42.092: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
-
-(wrapper-2.0:1031): Gtk-WARNING **: 19:50:42.436: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
-
-(wrapper-2.0:1022): Gtk-WARNING **: 19:50:44.590: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
-WARNING:root:can not import unity GI Namespace Dbusmenu not available
-/usr/lib/ubuntu-release-upgrader/check-new-release-gtk:30: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
-  from gi.repository import Gtk
-WARNING:root:timeout reached, exiting
+(wrapper-2.0:1185): Gtk-WARNING **: 20:53:31.583: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
 /usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
   from gi.repository import AppIndicator3 as girAppIndicator
-ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
-ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
 ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
 
-(xfce4-session:896): Gtk-CRITICAL **: 20:35:39.392: IA__gtk_widget_set_visible: assertion 'GTK_IS_WIDGET (widget)' failed
+(xfwm4:1045): xfwm4-WARNING **: 21:18:47.362: output size (1600x900) and logical screen size (800x600) do not match
+[Parent 1344, Gecko_IOThread] WARNING: pipe error (70): Connection reset by peer: file /build/firefox-ikZgcS/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+Gtk-Message: 21:23:24.933: GtkDialog mapped without a transient parent. This is discouraged.
 
-(xfce4-session:896): Gtk-CRITICAL **: 20:48:20.769: IA__gtk_widget_set_visible: assertion 'GTK_IS_WIDGET (widget)' failed
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150080,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
 
-(xfce4-session:896): GLib-GObject-CRITICAL **: 20:48:23.711: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+[2938:2938:0403/212627.866960:ERROR:CONSOLE(1)] "Uncaught ReferenceError: inline is not defined", source: chrome://sync-confirmation/ (1)
+Gtk-Message: 22:05:36.885: GtkDialog mapped without a transient parent. This is discouraged.
+[2973:2973:0403/225614.498648:ERROR:context_group.cc(153)] ContextResult::kFatalFailure: WebGL2 blacklisted
+[2938:2958:0404/005638.364387:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/005855.444576:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/010118.581501:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/010341.781380:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/010602.901790:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/010826.037798:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/011049.249046:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/011312.374054:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/011533.492464:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/011756.630444:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/012019.765932:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/012240.885334:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/012504.024521:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/012727.225822:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/012948.342675:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/013211.477202:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/020234.006239:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/020457.143557:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/022805.411816:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/023028.602398:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/023251.738879:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/023512.952470:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/023736.095361:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/024059.712993:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/024320.825658:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/024543.963056:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/024807.097647:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/025028.287478:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/025251.418681:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/025514.554361:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/025735.769987:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/025958.907132:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/030222.108172:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/030443.227143:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/030706.362283:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/030929.562438:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/031150.746339:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/033457.368087:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/033720.503191:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/033941.689533:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/034204.823552:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/034427.958750:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/034649.283930:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/034912.408063:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/035135.606690:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/035356.728889:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/035750.646545:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/040112.246960:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/040335.385381:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/040626.812972:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/040849.942979:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/041113.144140:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/041334.263134:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/041557.495019:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/041820.631698:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/044124.183121:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/044347.315214:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/044610.451502:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/044901.875103:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/045125.011718:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/045348.330395:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/045609.334964:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/045832.533272:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/050055.667932:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/050316.799693:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/050539.923463:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/050803.060487:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/051024.248406:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/051247.380133:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/051510.579793:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/051731.698949:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/051954.836643:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/052218.035224:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/052439.158061:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/052702.300527:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/055138.323027:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/062202.803374:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/062423.922315:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/062647.057728:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/062910.194322:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/063131.413716:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/063354.514907:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/063647.955734:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/063909.153175:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/064132.344787:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/064355.474572:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/064616.660073:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/064839.795755:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/065102.931255:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/065324.050574:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/065547.251761:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/065810.485119:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+/var/lib/dpkg/lock: 
+[2938:2958:0404/070034.076240:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+/run/unattended-upgrades.lock:
+[2938:2958:0404/070254.804144:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+/var/lib/dpkg/lock: 
+[2938:2958:0404/072600.427692:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+/run/unattended-upgrades.lock:
+[2938:2958:0404/072821.613393:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/073044.811016:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+/run/unattended-upgrades.lock:
+
+** (xfdesktop:1053): CRITICAL **: 07:32:58.123: xfdesktop_volume_icon_changed: assertion 'XFDESKTOP_IS_VOLUME_ICON(volume_icon)' failed
+[2938:2958:0404/073307.831759:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+/var/lib/dpkg/lock: 
+[2938:2958:0404/073531.968271:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+/run/unattended-upgrades.lock:
+PolicyKit daemon disconnected from the bus.
+We are no longer a registered authentication agent.
+PolicyKit daemon reconnected to bus.
+Attempting to re-register as an authentication agent.
+We are now a registered authentication agent.
+PolicyKit daemon disconnected from the bus.
+We are no longer a registered authentication agent.
+PolicyKit daemon reconnected to bus.
+Attempting to re-register as an authentication agent.
+We are now a registered authentication agent.
+[2938:2958:0404/073922.807168:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+/var/lib/apt/lists/lock:
+[2938:2958:0404/074144.023179:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/074407.146349:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/074630.281391:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/081652.811121:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/084717.290391:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/084938.410431:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/085201.546402:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/085424.748383:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/085645.930899:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/085909.130655:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/090132.268817:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/093154.730558:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+[2938:2958:0404/093417.866233:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+
+(mousepad:16031): Gtk-WARNING **: 10:27:16.278: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:16031): Gtk-WARNING **: 10:27:16.278: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:16031): Gtk-WARNING **: 10:27:16.278: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:16031): Gtk-WARNING **: 10:27:16.278: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:16031): Gtk-WARNING **: 10:27:16.278: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:16074): Gtk-WARNING **: 10:41:21.674: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:16074): Gtk-WARNING **: 10:41:21.675: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:16074): Gtk-WARNING **: 10:41:21.675: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:16074): Gtk-WARNING **: 10:41:21.675: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:16074): Gtk-WARNING **: 10:41:21.675: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:16081): Gtk-WARNING **: 10:41:36.385: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:16081): Gtk-WARNING **: 10:41:36.385: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:16081): Gtk-WARNING **: 10:41:36.385: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:16081): Gtk-WARNING **: 10:41:36.385: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:16081): Gtk-WARNING **: 10:41:36.385: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+[16180:16199:0404/105342.006657:ERROR:browser_process_sub_thread.cc(209)] Waited 14 ms for network service
+[17379:17379:0404/113354.028617:ERROR:ppapi_thread.cc(326)] Failed to load Pepper module from internal-not-yet-present (error: internal-not-yet-present: cannot open shared object file: No such file or directory)
+[2938:2938:0404/120142.308756:ERROR:http_bridge.cc(126)] Not implemented reached in virtual void syncer::HttpBridgeFactory::OnSignalReceived()
+javaldx: Could not find a Java Runtime Environment!
+Please ensure that a JVM and the package libreoffice-java-common
+is installed.
+If it is already installed then try removing ~/.libreoffice/3/user/config/javasettings_Linux_*.xml
+Warning: failed to read path from javaldx
+
+(xfwm4:1045): xfwm4-WARNING **: 12:05:12.901: output size (1600x795) and logical screen size (1600x900) do not match
+
+(xfce4-session:1034): Gtk-CRITICAL **: 12:05:15.331: IA__gtk_widget_set_visible: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(xfce4-session:1034): GLib-GObject-CRITICAL **: 12:05:24.712: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
