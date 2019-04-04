@@ -90,3 +90,9 @@ ails generate scaffold car make:string model:string year:integer
 rails generate scaffold car make:string model:string year:integer
 rails db:migrate
 rails server
+pwd /home/anshika/my_first_rails_app
+git init
+git add .
+git add
+git add .
+git commit -m "initial commit"
