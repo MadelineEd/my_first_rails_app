@@ -1,0 +1,102 @@
+{
+   "checksum": "77e8df58be8cf2a901c89891fc952be3",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13191423199159038",
+            "id": "5",
+            "meta_info": {
+               "last_visited_desktop": "13194358725501687"
+            },
+            "name": "Solve Python | HackerRank",
+            "sync_transaction_version": "7",
+            "type": "url",
+            "url": "https://www.hackerrank.com/domains/python"
+         }, {
+            "date_added": "13191423211446782",
+            "id": "6",
+            "meta_info": {
+               "last_visited_desktop": "13194130355855251"
+            },
+            "name": "Automate the Boring Stuff with Python",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://automatetheboringstuff.com/"
+         }, {
+            "date_added": "13193650023808038",
+            "id": "7",
+            "meta_info": {
+               "last_visited_desktop": "13194366049953407"
+            },
+            "name": "Typing Lessons | Learn Touch Typing - Typing.com",
+            "sync_transaction_version": "8",
+            "type": "url",
+            "url": "https://www.typing.com/student/lessons"
+         }, {
+            "date_added": "13193758702669656",
+            "id": "8",
+            "meta_info": {
+               "last_visited_desktop": "13193935456852881"
+            },
+            "name": "Getting Started with Arduino",
+            "sync_transaction_version": "9",
+            "type": "url",
+            "url": "https://www.esc19.net/cms/lib011/TX01933775/Centricity/Domain/110/make_gettingstartedwitharduino_3rdedition.pdf"
+         }, {
+            "date_added": "13193759400245552",
+            "id": "9",
+            "meta_info": {
+               "last_visited_desktop": "13194046477015944"
+            },
+            "name": "Make Electronics by Charles Platt.pdf ( PDFDrive.com ).pdf",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "file:///C:/Users/Dell/Downloads/Make%20Electronics%20by%20Charles%20Platt.pdf%20(%20PDFDrive.com%20).pdf"
+         }, {
+            "date_added": "13193783172112710",
+            "id": "10",
+            "meta_info": {
+               "last_visited": "13194003592165644",
+               "last_visited_desktop": "13193825285199303"
+            },
+            "name": "fritzing - Google Search",
+            "sync_transaction_version": "10",
+            "type": "url",
+            "url": "https://www.google.com/search?q=fritzing&rlz=1C1RLNS_enIN825IN825&oq=fritzing&aqs=chrome..69i57j0l5.2647j0j7&sourceid=chrome&ie=UTF-8"
+         }, {
+            "date_added": "13194359054625224",
+            "id": "11",
+            "meta_info": {
+               "last_visited_desktop": "13194371897093865"
+            },
+            "name": "C Programming Absolute Beginner - Perry, Greg.pdf - Google Drive",
+            "sync_transaction_version": "11",
+            "type": "url",
+            "url": "https://drive.google.com/file/d/0B7ytv6n26nvMY0gzbmV2bjdlWG8/view"
+         } ],
+         "date_added": "13198780500466644",
+         "date_modified": "13194359054625224",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13198780500466648",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "11",
+      "synced": {
+         "children": [  ],
+         "date_added": "13198780500466650",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
